@@ -7,8 +7,12 @@
 -->
 
 <template>
-    <div class="content">22222</div>
+  <div class="content">22222</div>
 </template>
 <script setup></script>
 
-<style scoped></style>
+<style scoped>
+.content{
+    font-size: 16px;
+}
+</style>
