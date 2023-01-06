@@ -3,7 +3,7 @@
  * @Author: wzj
  * @Date: 2023-01-05 18:38:39
  * @LastEditors: wzj
- * @LastEditTime: 2023-01-06 10:46:26
+ * @LastEditTime: 2023-01-06 10:54:17
  */
 import { defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
@@ -17,7 +17,8 @@ export default ({ mode }) => {
   return defineConfig({
     base: env.VITE_APP_PUBLISH_PATH,
     server: {
-      host: '0.0.0.0',
+      host: 'localhost',
+      port: '5178',
     },
     resolve: {
       /** 添加alias规则 */
