@@ -12,6 +12,9 @@
     "build--product": "vite build --mode product"
   },
   "dependencies": {
+    "axios": "^1.2.2",
+    "unplugin-vue-components": "^0.22.12",
+    "vant": "^4.0.7",
     "vue": "^3.2.45"
   },
   "devDependencies": {
